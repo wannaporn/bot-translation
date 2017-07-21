@@ -1,0 +1,36 @@
+{
+    "name": "linemob/line-bot-translation",
+    "type": "library",
+    "description": "Line Bot Translation using google translation api.",
+    "keywords": [
+        "line",
+        "bot",
+        "translation",
+        "google"
+    ],
+    "homepage": "https://github.com/linemob",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liverbool",
+            "homepage": "http://github.com/liverbool"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LineMob\\Bot\\Translation\\": "src/"
+        },
+        "classmap": [
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "linemob/core": "^0.1",
+        "league/tactician-bundle": "~0.4",
+        "google/cloud": "^0.34.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2",
+        "phpunit/phpunit": "^5.6"
+    }
+}
